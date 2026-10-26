@@ -360,3 +360,28 @@ section{
     flex-direction: column;
   }
 }
+
+/* MONEY GIRL featured project */
+.projects {background:var(--second-bg-color)}
+.mg-project{max-width:1250px;margin:auto;display:grid;grid-template-columns:1.1fr .9fr;gap:4rem;align-items:center}
+.mg-eyebrow{color:var(--main-color);letter-spacing:.15em;font-size:1.35rem;font-weight:700;margin-bottom:1.5rem}
+.mg-project h3{font-size:clamp(4rem,6vw,7rem);line-height:1.1;margin-bottom:1.2rem}
+.mg-subtitle{font-size:2.2rem;font-weight:650;margin-bottom:2rem}
+.mg-description{color:#d0d9d3;font-size:1.8rem;line-height:1.75;max-width:65rem}
+.mg-tags{display:flex;flex-wrap:wrap;gap:1rem;margin:2.6rem 0}
+.mg-tags span{border:1px solid rgba(0,255,81,.35);border-radius:3rem;padding:.8rem 1.2rem;background:rgba(0,255,81,.055);font-size:1.35rem;color:#d9ffe5}
+.mg-actions{display:flex;align-items:center;flex-wrap:wrap;gap:2rem}
+.mg-text-link{font-size:1.65rem;color:var(--main-color);font-weight:600}
+.mg-text-link:hover{text-decoration:underline}
+.mg-disclaimer{margin-top:2.2rem;color:#a5b9ad;font-size:1.3rem;line-height:1.6}
+.mg-preview{background:#07190d;border:1px solid #23673b;box-shadow:0 20px 70px rgba(0,0,0,.4),0 0 34px rgba(0,255,81,.11);padding:2.4rem;border-radius:2.4rem}
+.mg-preview-header{font-size:1.35rem;letter-spacing:.08em;font-weight:700;color:#b0dab9;border-bottom:1px solid #1d4730;padding-bottom:1.8rem}
+.mg-led{display:inline-block;background:var(--main-color);height:9px;width:9px;border-radius:50%;margin-right:8px;box-shadow:0 0 14px var(--main-color)}
+.mg-nodes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem;margin-top:2rem}
+.mg-nodes div{border:1px solid #1d5130;border-radius:1.4rem;background:#0b2415;padding:1.8rem;display:flex;flex-direction:column;gap:.9rem}
+.mg-nodes i{font-size:3.3rem;color:var(--main-color)}
+.mg-nodes strong{font-size:1.65rem}
+.mg-nodes small{font-size:1.25rem;color:#afc5b6}
+.mg-preview-foot{margin-top:1.9rem;font-size:1.3rem;color:#8faf9c}
+@media(max-width:1024px){.mg-project{grid-template-columns:1fr}.projects{padding:10rem 7%}.mg-preview{max-width:720px;width:100%;margin:auto}}
+@media(max-width:480px){.mg-nodes{grid-template-columns:1fr}.mg-project h3{font-size:4.7rem}}
